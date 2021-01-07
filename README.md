@@ -1,1 +1,1 @@
-# v12-Altyap-
+V12 Aequitas Bot Temiz Altyapı
