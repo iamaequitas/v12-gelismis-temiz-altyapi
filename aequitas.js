@@ -9,20 +9,17 @@ const fs = require('fs');
 const db = require('quick.db');
 require('./events/eventLoader.js')(client);
 var prefix = ayarlar.prefix;
-const log = message => {
-console.log(`${message}`);
-};
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 fs.readdir('./komut/', (err, files) => {
     if (err) console.error(err);
-    log(`
+    console.log(`
  -> ${files.length} Komut Yükeniyor... <-
 `);
     files.forEach(f => {
         let props = require(`./komut/${f}`);
-        log(`-> ${props.help.name}`);
+        console.log(`-> ${props.help.name}`);
         client.commands.set(props.help.name, props);
         props.conf.aliases.forEach(alias => {
             client.aliases.set(alias, props.help.name);
