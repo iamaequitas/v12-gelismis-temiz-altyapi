@@ -1,4 +1,25 @@
 {
-  "prefix": ".",
-  "sahip": ""
+  "bot": {
+    "owner": "675733220813176832",
+    "prefix": "."
+  },
+  "rol": { //ayarlar.rol.bu kısımdan çekeceğiniz bilgi
+    "rol": "",
+    "rol": "",
+    "rol": "",
+    "rol": "",
+    "rol": ""
+  },
+  "kanal": {
+    "kanal": "",
+    "kanal": "",
+    "kanal": ""
+    },
+  "renk": {
+    "kırmızı": "#FF0000",
+    "beyaz": "#FFFFFE"
+  },
+  "sunucu": {
+    "tag": "∞"
+  }
 }
