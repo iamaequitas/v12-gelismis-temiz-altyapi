@@ -61,7 +61,7 @@ if (!message.guild) { return; }
 let permlvl = 0;
 if (message.member.hasPermission("BAN_MEMBERS")) permlvl = 1;
 if (message.member.hasPermission("ADMINISTRATOR")) permlvl = 2;
-if (message.author.id === ayarlar.bot.owner) permlvl = 4;
+if (message.author.id === ayarlar.bot.owner) permlvl = 3;
 return permlvl;};
 
 client.login(process.env.token).then(() => {
