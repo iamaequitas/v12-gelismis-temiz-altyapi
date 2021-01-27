@@ -3,17 +3,17 @@
     "owner": "675733220813176832",
     "prefix": "."
   },
-  "rol": { //ayarlar.rol.bu kısımdan çekeceğiniz bilgi
-    "rol": "",
-    "rol": "",
-    "rol": "",
-    "rol": "",
-    "rol": ""
+  "rol": {
+    "eklemekistediğinizrol": "",
+    "eklemekistediğinizrol": "",
+    "eklemekistediğinizrol": "",
+    "eklemekistediğinizrol": "",
+    "eklemekistediğinizrol": ""
   },
   "kanal": {
-    "kanal": "",
-    "kanal": "",
-    "kanal": ""
+    "eklemekistediğinizkanal": "",
+    "eklemekistediğinizkanal": "",
+    "eklemekistediğinizkanal": ""
     },
   "renk": {
     "kırmızı": "#FF0000",
