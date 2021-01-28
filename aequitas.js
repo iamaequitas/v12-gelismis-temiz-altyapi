@@ -7,7 +7,6 @@ const { Client, Util } = require('discord.js');
 const fs = require('fs');
 const db = require('quick.db');
 const snekfetch = require('snekfetch');
-const ms = require('ms');
 const ayarlar = require('./ayarlar.json');
 require('./events/loader.js')(client);
 
