@@ -9,7 +9,7 @@ const db = require('quick.db');
 const snekfetch = require('snekfetch');
 const ms = require('ms');
 const ayarlar = require('./ayarlar.json');
-require('./events/eventLoader.js')(client);
+require('./events/loader.js')(client);
 
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
