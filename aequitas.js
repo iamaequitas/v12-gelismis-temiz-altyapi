@@ -16,7 +16,7 @@ fs.readdir('./komut/', (err, files) => {
 if (err) console.log(`Bir Komut Yüklemelisin!`);
 console.log(`
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
- -> ${files.length} Komut Yükeniyor...
+-> ${files.length} Komut Yükeniyor...
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞`);
 files.forEach(f => {
 let props = require(`./komut/${f}`);
@@ -64,6 +64,6 @@ if (message.author.id === ayarlar.bot.owner) permlvl = 3;
 return permlvl;};
 
 client.login(process.env.token).then(() => {
-console.log(`-> ∞ | 𝙸𝙽𝙵𝙸𝙽𝙸𝚃𝚈 | ∞ Sunucusunda Görevimdeyim Aequitas!`);});
+console.log(`-> Token İle Giriş Sağlandı Görevimdeyim Aequitas!`);});
 //∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞\\
 
