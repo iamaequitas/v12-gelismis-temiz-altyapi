@@ -6,7 +6,7 @@ var Jimp = require('jimp');
 const fs = require('fs');
 const db = require('quick.db');
 const snekfetch = require('snekfetch');
-const ayarlar = require('./ayarlar.json');
+const settings = require('./settings.json');
 require('./events/loader.js')(client);
 
 client.commands = new Discord.Collection();
@@ -59,7 +59,7 @@ if (!message.guild) { return; }
 let permlvl = 0;
 if (message.member.hasPermission("BAN_MEMBERS")) permlvl = 1;
 if (message.member.hasPermission("ADMINISTRATOR")) permlvl = 2;
-if (message.author.id === ayarlar.bot.owner) permlvl = 3;
+if (message.author.id === settings.bot.owner) permlvl = 3;
 return permlvl;};
 
 client.login(process.env.token).then(() => {
