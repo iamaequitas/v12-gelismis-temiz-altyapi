@@ -3,7 +3,6 @@ const client = new Discord.Client();
 const chalk = require('chalk');
 const moment = require('moment');
 var Jimp = require('jimp');
-const { Client, Util } = require('discord.js');
 const fs = require('fs');
 const db = require('quick.db');
 const snekfetch = require('snekfetch');
