@@ -1,12 +1,12 @@
 const Discord = require("discord.js");
-const ayarlar = require('../ayarlar.json');
+const settings = require('../settings.json');
 
 module.exports = message => {
 
   let client = message.client;
   if (message.author.bot) return;
-  if (!message.content.startsWith(ayarlar.bot.prefix)) return;
-  let command = message.content.split(' ')[0].slice(ayarlar.bot.prefix.length);
+  if (!message.content.startsWith(settings.bot.prefix)) return;
+  let command = message.content.split(' ')[0].slice(settings.bot.prefix.length);
   let params = message.content.split(' ').slice(1);
   let perms = client.elevation(message);
   let cmd;
@@ -18,6 +18,4 @@ module.exports = message => {
   if (cmd) {
     if (perms < cmd.conf.permLevel) return;
     cmd.run(client, message, params, perms);
-  }
-
-};
+  }};
