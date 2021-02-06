@@ -4,7 +4,7 @@
   "description": "",
   "main": "aequitas.js",
   "scripts": {
-    "start": "node aequitas.js"
+  "start": "node aequitas.js"
   },
   "dependencies": {
     "discord.js": "^12.5.0",
