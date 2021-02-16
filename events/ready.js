@@ -6,6 +6,21 @@ module.exports = client => {
          ${client.user.username}
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 `);
-  client.user.setStatus("online");
-  client.user.setActivity("bot durum kısmınız", { type: "WATCHING"}); //// TYPE - WATCHING , PLAYING , LISTENING gibi değiştirilebilir.
-};
+client.on("ready", () => {
+  client.user.setPresence({
+    game: {
+      name: "Aequitas v12 altyapı",
+      type: "WATCHING"
+      // url: 'https://www.twitch.tv/amerikaniks'
+      // Değerler:
+      // PLAYING: Oynuyor
+      // WATCHING: İzliyor
+      // LISTENING: Dinliyor
+    },
+    status: "idle"
+    // Değerler:
+    // online: Çevrimiçi
+    // dnd: Rahatsız Etmeyin
+    // idle: Boşta
+  });
+});
