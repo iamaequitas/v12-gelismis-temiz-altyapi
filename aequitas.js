@@ -1,11 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const chalk = require('chalk');
 const moment = require('moment');
-var Jimp = require('jimp');
 const fs = require('fs');
 const db = require('quick.db');
-const snekfetch = require('snekfetch');
 const settings = require('./settings.json');
 require('./events/loader.js')(client);
 
