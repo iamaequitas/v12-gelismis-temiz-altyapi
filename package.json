@@ -1,7 +1,7 @@
 {
-  "main": "aequitas.js",
+  "main": "shard.js",
   "scripts": {
-  "start": "node aequitas.js"
+  "start": "node shard.js"
   },
   "dependencies": {
     "discord.js": "^12.5.1",
