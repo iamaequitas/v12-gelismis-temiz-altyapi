@@ -10,10 +10,7 @@ client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 fs.readdir('./komut/', (err, files) => {
 if (err) console.log(`Bir Komut Yüklemelisin!`);
-console.log(`
-∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
--> ${files.length} Komut Yükeniyor...
-∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞`);
+console.log(`-> ${files.length} Komut Yükeniyor...`);
 files.forEach(f => {
 let props = require(`./komut/${f}`);
 console.log(`-> ${props.help.name}`);
@@ -60,6 +57,12 @@ if (message.author.id === settings.bot.owner) permlvl = 3;
 return permlvl;};
 
 client.login(process.env.token).then(() => {
-console.log(`-> Token İle Giriş Sağlandı Görevimdeyim Aequitas!`);});
+console.log(`
+∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
+Bot İsmi     : ${client.user.username}
+Sunucular          : ${client.guilds.cache.size}
+Kullanıcılar       : ${client.users.cache.size}
+Prefix             : ${settings.bot.prefix}
+∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞`);});
 //∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞\\
 
