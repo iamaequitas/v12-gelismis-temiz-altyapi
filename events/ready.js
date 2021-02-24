@@ -5,7 +5,7 @@ client.on("ready", () => {
 client.user.setPresence({
 game: {
 name: "Aequitas v12 gelişmiş temiz altyapı",
-type: "WATCHING"
+type: "WATCHING",
 url: 'https://www.twitch.tv/aequitasaltyapı'
 // Değerler:
 // PLAYING: Oynuyor
