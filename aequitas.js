@@ -59,11 +59,10 @@ return permlvl;};
 client.login(process.env.token).then(() => {
 console.log(`
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
-Bot İsmi           : ${client.user.username}
-Sunucular          : ${client.guilds.cache.size}
-Kullanıcılar       : ${client.users.cache.size}
-Prefix             : ${settings.bot.prefix}
-Bot Ping:          : ${client.ws.ping}
+Bot İsmi: ${client.user.username}
+Sunucular: ${client.guilds.cache.size}
+Kullanıcılar: ${client.users.cache.size}
+Prefix: ${settings.bot.prefix}
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞`);});
 //∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞\\
 
