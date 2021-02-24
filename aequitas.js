@@ -63,6 +63,7 @@ Bot İsmi           : ${client.user.username}
 Sunucular          : ${client.guilds.cache.size}
 Kullanıcılar       : ${client.users.cache.size}
 Prefix             : ${settings.bot.prefix}
+Bot Ping:          : ${client.ws.ping}
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞`);});
 //∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞\\
 
