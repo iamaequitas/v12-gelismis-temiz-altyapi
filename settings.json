@@ -1,11 +1,9 @@
 {
   "bot": {
-    "owner": "675733220813176832",
+    "owner": "577589971658211329",
     "prefix": "."
   },
   "rol": {
-    "eklemekistediğinizrol": "",
-    "eklemekistediğinizrol": "",
     "eklemekistediğinizrol": "",
     "eklemekistediğinizrol": "",
     "eklemekistediğinizrol": ""
@@ -14,12 +12,4 @@
     "eklemekistediğinizkanal": "",
     "eklemekistediğinizkanal": "",
     "eklemekistediğinizkanal": ""
-    },
-  "renk": {
-    "kırmızı": "#FF0000",
-    "beyaz": "#FFFFFE"
-  },
-  "sunucu": {
-    "tag": "∞"
-  }
-}
+}}
