@@ -2,7 +2,7 @@
   "author": "aequitas",
   "main": "shard.js",
   "scripts": {
-    "start": "node shard.js"
+  "start": "node shard.js"
   },
   "dependencies": {
     "discord.js": "^12.5.3",
