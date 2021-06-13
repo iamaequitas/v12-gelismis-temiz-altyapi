@@ -1,14 +1,15 @@
 {
   "main": "shard.js",
   "scripts": {
-  "start": "node shard.js"
+    "start": "node shard.js"
   },
   "dependencies": {
-    "discord.js": "^12.5.1",
+    "discord.js": "^12.5.3",
     "fs": "^0.0.2",
     "moment": "^2.29.1",
-    "quick.db": "^7.1.2"
+    "croxydb": "^0.0.7"
   },
   "engines": {
     "node": "12.x"
-}}
+  }
+}
